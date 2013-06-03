@@ -8,11 +8,6 @@ source ~/vimrc/vimrcs/plugins_config.vim
 source ~/vimrc/vimrcs/extended.vim
 
 try
-source ~/vimrc/plugin/taglist.vim
-catch
-endtry
-
-try
 source ~/vimrc/my_configs.vim
 catch
 endtry' > ~/.vimrc
