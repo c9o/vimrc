@@ -1,4 +1,3 @@
-echo ',v
 https://github.com/chenjingtao/vimrc.git,v
 ,V
 http://www.vim.org/scripts/script.php?script_id=273,v
