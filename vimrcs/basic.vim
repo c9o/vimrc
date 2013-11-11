@@ -53,7 +53,7 @@ filetype indent on
 colorscheme desert
 
 " Ctag supported
-map <C-F1> :!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<CR>
+map <C-F5> :!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<CR>
 
 " Taglist supported
 let Tlist_Show_One_File=1
