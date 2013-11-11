@@ -55,6 +55,14 @@ colorscheme desert
 " Ctag supported
 map <C-F1> :!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<CR>
 
+" Taglist supported
+let Tlist_Show_One_File=1
+let Tlist_Exit_OnlyWindow=1
+
+" Windows manager supported
+let g:winManagerWindowLayout='FileExplorer|TagList'
+nmap wm :WMToggle<cr>
+
 " Set to auto read when a file is changed from the outside
 set autoread
 

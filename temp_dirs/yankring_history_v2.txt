@@ -1,3 +1,6 @@
+:~/buildroot/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/lib/arm-linux-gnueabihf/,v
+let g:winManagerWindowLayout='FileExplorer|TagList'nmap wm :WMToggle<cr>,v
+       let Tlist_Show_One_File=1       let Tlist_Exit_OnlyWindow=1,v
 https://github.com/chenjingtao/vimrc.git,v
 ,V
 http://www.vim.org/scripts/script.php?script_id=273,v
