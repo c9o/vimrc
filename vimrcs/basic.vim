@@ -44,11 +44,16 @@
 " => General
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Sets how many lines of history VIM has to remember
-set history=700
+set history=1000
 
 " Enable filetype plugins
 filetype plugin on
 filetype indent on
+
+colorscheme desert
+
+" Ctag supported
+map <C-F1> :!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<CR>
 
 " Set to auto read when a file is changed from the outside
 set autoread
@@ -212,6 +217,12 @@ map <C-j> <C-W>j
 map <C-k> <C-W>k
 map <C-h> <C-W>h
 map <C-l> <C-W>l
+
+" Highlight syntax
+syntax enable
+syntax on
+
+colorscheme desert
 
 " Close the current buffer
 map <leader>bd :Bclose<cr>
